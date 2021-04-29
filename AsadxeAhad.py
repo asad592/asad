@@ -38,10 +38,17 @@ header = {
     'x-fb-http-engine': 'Liger' }
 os.system('git pull')
 os.system('clear')
+logo = """
+\033[1;91m          _    _         _       _ _       _
+\033[1;91m        / \  | |__   __| |_   _| | | __ _| |__
+\033[1;92m      / _ \ | '_ \ / _` | | | | | |/ _` | '_ \
+\033[1;96m    / ___ \| |_) | (_| | |_| | | | (_| | | | |
+ \033[1;96m /_/   \_\_.__/ \__,_|\__,_|_|_|\__,_|_| |_|
+\033[1;91m  
 \033[1;92m     ~~~~ASAD_XE_AHAD_Brand~~~~
 \033[1;94m===============================================
 \033[1;97m➣ Author : \033[1;97mASAD XE AHAD
-\033[1;97m➣ UNITY  : \033[1;97mAHAD XE ASAD
+\033[1;97m➣ UNITY  : \033[1;97mASAD XE AHAD
 \033[1;97m➣ WP  : \033[1;97m03447169700
 \033[1;94m==============================================="""
 
@@ -128,13 +135,4 @@ def log_menu():
     
     try:
         t_check = open('access_token.txt', 'r')
-        menu()
-    except (KeyError, IOError):
-        os.system('clear')
-        print logo
-        print '\033[1;90m ~~~~ Login menu ~~~~\033[1;94m'
-	print 47 * '-'
-        print '\033[1;92m[1] Login with FaceBook'
-        print '\033[1;92m[2] Login with token'
-        print '\033[1;92m[3] Login with cookies'
-  
+        m
