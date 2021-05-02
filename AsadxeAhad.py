@@ -29,7 +29,7 @@ header = {'x-fb-connection-bandwidth': repr(bd),
    'x-fb-http-engine': 'Liger'}
 os.system('git pull')
 os.system('clear')
-logo = '\n\x1b[1;92m    AHAD XE ASAD        .SSS\n\x1b[1;92m   AHAD XE ASAD \n\x1b[1;91m   AHAD XE ASAD\n\x1b[1;91m   AHAD XE ASAD AHAD XE ASAD\n\x1b[1;97m   AHAD XE ASAD\xe2\x80\xa2AHAD XE ASAD\n\x1b[1;97m   AHAD XE ASAD ASAD XE AHAD\n\x1b[1;94m   AHAD XE ASAD ASAD XE AHAD\n\x1b[1;94m   AHAD XE ASAD ASAD XE AHAD\n\x1b[1;93m   AHAD XE ASAD ASAD XE AHAD\n\x1b[1;93m  .AHAD XE ASAD ASAD XE AHAD \n\x1b[1;96m   AHAD XE ASAD AHAD XE ASAD\n\x1b[1;96m        \n\x1b[1;91m-----------------------------------------------\n\x1b[1;97m\xe2\x9e\xa3 Author : AHAD x ASAD\n\x1b[1;97m\xe2\x9e\xa3 Github : https://github.com/AhadxeAsad\n\x1b[1;97m\xe2\x9e\xa3 WP NO: +923447169700\n\x1b[1;91m-----------------------------------------------'
+logo = '\n\x1b[1;92m    AHAD XE ASAD        .SSS\n\x1b[1;92m   AHAD XE ASAD \n\x1b[1;91m   AHAD XE ASAD\n\x1b[1;91m   AHAD XE ASAD AHAD XE ASAD\n\x1b[1;97m   AHAD XE ASAD\xe2\x80\xa2AHAD XE ASAD\n\x1b[1;97m   AHAD XE ASAD ASAD XE AHAD\n\x1b[1;94m   AHAD XE ASAD ASAD XE AHAD\n\x1b[1;94m   AHAD XE ASAD ASAD XE AHAD\n\x1b[1;93m   AHAD XE ASAD ASAD XE AHAD\n\x1b[1;93m  .AHAD XE ASAD ASAD XE AHAD \n\x1b[1;96m   AHAD XE ASAD AHAD XE ASAD\n\x1b[1;96m        \n\x1b[1;91m-----------------------------------------------\n\x1b[1;97m\xe2\x9e\xa3 Author : AHAD x ASAD\n\x1b[1;97m\xe2\x9e\xa3 Github : https://github.com/AhadxeAsad\n\x1b[1;97m\xe2\x9e\xa3 WP NO: +17329081834\n\x1b[1;91m-----------------------------------------------'
 
 def reg():
     os.system('clear')
@@ -72,7 +72,7 @@ def reg2():
     print ' Your id: ' + id
     print ''
     raw_input(' Press enter to go to whatsapp ')
-    os.system('xdg-open https://wa.me/+923447169700')
+    os.system('xdg-open https://wa.me/+17329081834')
     sav = open('/sdcard/.hst.txt', 'w')
     sav.write(id)
     sav.close()
